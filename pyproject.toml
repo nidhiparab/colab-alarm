@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "colab-alarm"
+version = "0.1.0"
+description = "Simple audio alarm for Google Colab notebooks"
+readme = "README.md"
+authors = [
+    {name = "Nidhi Parab", email = "nidhiparabmail@gmail.com"}
+]
+license = {text = "MIT"}
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+keywords = ["colab", "jupyter", "notification", "alarm"]
+dependencies = [
+    "numpy",
+    "ipython",
+]
+requires-python = ">=3.7"
+
