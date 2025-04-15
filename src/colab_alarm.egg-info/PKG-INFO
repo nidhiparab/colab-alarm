@@ -1,0 +1,25 @@
+Metadata-Version: 2.4
+Name: colab-alarm
+Version: 0.1.1
+Summary: Simple audio alarm for Google Colab notebooks
+Author-email: Nidhi Parab <nidhiparabmail@gmail.com>
+License: MIT
+Keywords: colab,jupyter,notification,alarm
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: ipython
+Dynamic: license-file
+
+# Colab Alarm
+
+A simple audio notification system for Google Colab notebooks. Play an alarm sound when your cell finishes executing.
+
+## Installation
+
+```bash
+pip install colab-alarm
